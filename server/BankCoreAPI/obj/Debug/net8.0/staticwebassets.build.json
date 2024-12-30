@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rG3U+1QZM8Tt+g4dBERoUpT/6QARPdFKPBKEJSm3ZHc=",
+  "Source": "BankCoreAPI",
+  "BasePath": "_content/BankCoreAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
