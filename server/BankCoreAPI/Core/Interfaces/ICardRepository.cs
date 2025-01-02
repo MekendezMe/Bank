@@ -4,7 +4,7 @@ namespace BankCoreAPI.Core.Interfaces
 {
     public interface ICardRepository
     {
-        Task<Card> GetCardByNumberAsync(string number);
+        Task<Card?> GetCardByNumberAsync(string number);
 
         Task<IEnumerable<Card>> GetCardsByUserIdAsync(long userId);
 
@@ -12,8 +12,8 @@ namespace BankCoreAPI.Core.Interfaces
 
         Task<IEnumerable<Card>> GetAllActiveCardsAsync();
 
-        Task<IEnumerable<Card>> GetCardsByTypeAsync(string type);
+        Task<IEnumerable<Card>> GetCardsByTypeAndUserIdAsync(string type, long userId);
 
-        Task<IEnumerable<Card>> GetCardsByCurrencyAsync(string currency);
+        Task<IEnumerable<Card>> GetCardsByCurrencyAndUserIdAsync(string currency, long userId);
     }
 }

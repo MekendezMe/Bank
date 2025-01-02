@@ -4,7 +4,7 @@ namespace BankCoreAPI.Core.Interfaces
 {
     public interface IAccountRepository
     {
-        Task<Account> GetAccountByNumberAsync(string number);
+        Task<Account?> GetAccountByNumberAsync(string number);
 
         Task<IEnumerable<Account>> GetAccountsByUserIdAsync(long userId);
 
@@ -14,6 +14,8 @@ namespace BankCoreAPI.Core.Interfaces
 
         Task<IEnumerable<Account>> GetAccountsByTypeAsync(string type);
 
-        Task<IEnumerable<Account>> GetAccountsByCurrencyAsync(string currency);
+        Task<IEnumerable<Account>> GetAccountsByTypeAndUserIdAsync(string type, long userId);
+
+        Task<IEnumerable<Account>> GetAccountsByCurrencyAndUserIdAsync(string currency, long userId);
     }
 }

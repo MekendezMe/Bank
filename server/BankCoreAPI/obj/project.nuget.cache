@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DK+NgbmkCYwOsYymbevnRv5FLJ8H6eaAmJIKKQbB5FRs53S46ebDauSsoagyoXbebUxjDTPkCeH0uLJCb0dDTA==",
+  "dgSpecHash": "CVTFKZLBf8RADRvwcRb6Rvgst/NqE7Lo8vg7I6hgdnW7Cz+K9ZRGwmLP5S8Xd6zkQmWWdzJefl6T1v7I3dIC4w==",
   "success": true,
   "projectFilePath": "D:\\Projects\\Bank\\server\\BankCoreAPI\\BankCoreAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kiril\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\kiril\\.nuget\\packages\\entityframework\\6.5.1\\entityframework.6.5.1.nupkg.sha512",
     "C:\\Users\\kiril\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\kiril\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

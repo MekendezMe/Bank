@@ -4,10 +4,10 @@ namespace BankCoreAPI.Core.Interfaces
 {
     public interface ICardTransactionRepository
     {
-        Task<CardTransaction> GetCardTransactionsByCardSenderIdAsync(long cardSenderId);
+        Task<IEnumerable<CardTransaction>> GetCardTransactionsByCardSenderIdAsync(long cardSenderId);
 
-        Task<CardTransaction> GetCardTransactionsByCardReceiverIdAsync(long cardReceiverId);
+        Task<IEnumerable<CardTransaction>> GetCardTransactionsByCardReceiverIdAsync(long cardReceiverId);
 
-        Task<CardTransaction> GetCardTransactionsWithPositiveBalance();
+        Task<IEnumerable<CardTransaction>> GetCardTransactionsWithPositiveBalance();
     }
 }
