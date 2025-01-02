@@ -8,8 +8,8 @@ namespace BankCoreAPI.Core.Interfaces
 
         Task<User> GetUserByMobilePhoneAsync(string mobilePhone);
 
-        Task<IEnumerable<User>> GetAllDeletedUsersAsync();
+        Task<IEnumerable<User>> GetAllExistingUsersAsync();
 
-        
+        Task<bool> ConfirmEmailByIdAsync(long id);
     }
 }

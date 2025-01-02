@@ -34,6 +34,8 @@ namespace BankCoreAPI.Core.Models.Cards
 
         public bool IsActivate { get; set; }
 
+        public DateTime? BlockedAt { get; set; }
+
         public ICollection<CardTransaction> CardFromTransactions { get; set; }
             = new List<CardTransaction>();
         public ICollection<CardTransaction> CardToTransactions { get; set; }

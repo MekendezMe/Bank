@@ -11,5 +11,9 @@ namespace BankCoreAPI.Core.Interfaces
         Task<IEnumerable<Card>> GetActiveCardsByUserIdAsync(long userId);
 
         Task<IEnumerable<Card>> GetAllActiveCardsAsync();
+
+        Task<IEnumerable<Card>> GetCardsByTypeAsync(string type);
+
+        Task<IEnumerable<Card>> GetCardsByCurrencyAsync(string currency);
     }
 }

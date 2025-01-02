@@ -21,7 +21,7 @@ namespace BankCoreAPI.Core.Repositories
             return await _dbSet.ToListAsync();
         }
 
-        public async Task<T> GetByIdAsync(long id)
+        public async Task<T?> GetByIdAsync(long id)
         {
             return await _dbSet.FindAsync(id);
         }

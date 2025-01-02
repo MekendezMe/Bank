@@ -37,6 +37,8 @@ namespace BankCoreAPI.Core.Models.Accounts
 
         public bool IsActive { get; set; }
 
+        public DateTime? BlockedAt { get; set; }
+
         public ICollection<AccountTransaction> AccountFromTransactions { get; set; }
             = new List<AccountTransaction>();
 
