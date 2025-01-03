@@ -10,6 +10,8 @@ namespace BankCoreAPI.Core.Mappings
         {
             CreateMap<User, UserDTO>();
             CreateMap<UserDTO, User>();
+            CreateMap<RegisterDTO, User>();
+            CreateMap<LoginDTO, User>();
         }
     }
 }
